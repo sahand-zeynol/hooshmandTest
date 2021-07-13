@@ -1,0 +1,22 @@
+{
+  "name": "assessment-js",
+  "version": "1.0.1",
+  "description": "Node Assessment",
+  "main": "index.js",
+  "author": "Hamed Motallebi",
+  "license": "MIT",
+  "engines": {
+    "node": "^8.4.0"
+  },
+  "scripts": {
+    "test": "jest",
+    "test/watch": "jest --watchAll"
+  },
+  "dependencies": {
+    "jest": "^22.0.4"
+  },
+  "jest": {
+    "verbose": true,
+    "testURL": "http://localhost/"
+  }
+}
